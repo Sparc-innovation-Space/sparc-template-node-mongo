@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "port": 8080,
+  "health_path": "/healthz",
+  "build_method": "auto",
+  "database": { "type": "mongodb" },
+  "settings": {
+    "NODE_ENV": "production"
+  }
+}
